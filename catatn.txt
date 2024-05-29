@@ -1,0 +1,41 @@
+flow pembuatan program : 
+1. buat fungsi simpan waktu di RTC => done
+2. buat fungsi untuk load waktu dari RTC => done
+3. buat fungsi penghitung waktu sholat => done
+4. buat fungsi menampilkan text di DMD 
+5. menyusun tampilan LCD
+
+pemilihan font :
+- font jam 
+    font 5 : ukuran OK tapi kaku
+
+
+
+display 0
+nama masjid 2baris animasi drop down :
+   MASJID
+BAITUL MAKMUR
+
+display 1
+baris 1 : tanggal
+tgl-bulan-tahun
+baris 2 : info 1 jalan dari kiri ke kanan
+info 1 : rapatkan soft
+
+display 2 : jadwal sholat 
+all jadwal 3 panel bagi dua kolom, masing- masing kolom berisi info nama sholat dan jam
+
+nama shlat    nama shlat
+jam:menit     jam : menit
+
+display 3 : 
+Info text geser dari kanan ke kiri dengan foont besar dan garis tepi atas (nama masjid alamat)
+
+display 4 : jadwal shlat (sama dengan display 2)
+
+display 5 :  sama dengan info 1 tapi beda infrmasi yang disampaikan
+
+display 1
+display dibagi menjadi 2 atas dan bawah
+atas menampilkan jam waktu sholat secara bergantian 
+bawah menampilkan tanggal (tanggal bulan tahun) contoh : 13 januari 2024 
